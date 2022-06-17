@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS Drum Kit</title>
+  </head>
+  <body>
+    <!-- Build the keys. -->
+    <div class="keys">
+      <div class="key" data-key="a">
+        <kbd>a</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div class="key" data-key="s">
+        <kbd>s</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div class="key" data-key="d">
+        <kbd>d</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div class="key" data-key="f">
+        <kbd>f</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div class="key" data-key="g">
+        <kbd>g</kbd>
+        <span class="sound">boom</span>
+      </div>
+      <div class="key" data-key="h">
+        <kbd>h</kbd>
+        <span class="sound">ride</span>
+      </div>
+      <div class="key" data-key="j">
+        <kbd>j</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div class="key" data-key="k">
+        <kbd>k</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div class="key" data-key="l">
+        <kbd>l</kbd>
+        <span class="sound">tink</span>
+      </div>
+      <div class="key" data-key="z">
+        <kbd>z</kbd>
+        <span class="sound">bass</span>
+      </div>
+      <div class="key" data-key="x">
+        <kbd>x</kbd>
+        <span class="sound">bass short</span>
+      </div>
+      <div class="key" data-key="c">
+        <kbd>c</kbd>
+        <span class="sound">drum hard</span>
+      </div>
+      <div class="key" data-key="v">
+        <kbd>v</kbd>
+        <span class="sound">drum echo</span>
+      </div>
+      <div class="key" data-key="b">
+        <kbd>b</kbd>
+        <span class="sound">metal drum</span>
+      </div>
+      <div class="key" data-key="n">
+        <kbd>n</kbd>
+        <span class="sound">metal string</span>
+      </div>
+      <div class="key" data-key="m">
+        <kbd>m</kbd>
+        <span class="sound">digital</span>
+      </div>
+      <div class="key" data-key=",">
+        <kbd>,</kbd>
+        <span class="sound">tribal</span>
+      </div>
+      <div class="key" data-key=".">
+        <kbd>.</kbd>
+        <span class="sound">tribal dry</span>
+      </div>
+      <!-- Gather the sounds. -->
+      <audio data-key="a" src="sounds/clap.wav"></audio>
+      <audio data-key="s" src="sounds/hihat.wav"></audio>
+      <audio data-key="d" src="sounds/kick.wav"></audio>
+      <audio data-key="f" src="sounds/openhat.wav"></audio>
+      <audio data-key="g" src="sounds/boom.wav"></audio>
+      <audio data-key="h" src="sounds/ride.wav"></audio>
+      <audio data-key="j" src="sounds/snare.wav"></audio>
+      <audio data-key="k" src="sounds/tom.wav"></audio>
+      <audio data-key="l" src="sounds/tink.wav"></audio>
+      <audio data-key="z" src="sounds/bass.wav"></audio>
+      <audio data-key="x" src="sounds/bass-short.wav"></audio>
+      <audio data-key="c" src="sounds/drum-hard.wav"></audio>
+      <audio data-key="v" src="sounds/drum-echo.wav"></audio>
+      <audio data-key="b" src="sounds/metal-drum.wav"></audio>
+      <audio data-key="n" src="sounds/metal-string.wav"></audio>
+      <audio data-key="m" src="sounds/digital.wav"></audio>
+      <audio data-key="," src="sounds/tribal.wav"></audio>
+      <audio data-key="." src="sounds/tribal-dry.wav"></audio>
+    </div>
+  </body>
+</html>
