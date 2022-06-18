@@ -1,0 +1,34 @@
+{
+  "name": "js-drum-kit",
+  "version": "1.0.0",
+  "description": "JS powered drum kit",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ./",
+    "lint:css": "stylelint '**/*.css' --config .stylelintrc.json",
+    "fix:css": "stylelint '**/*.css' --config .stylelintrc.json --fix",
+    "lint:js": "eslint .",
+    "fix:js": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splawskip/JS-Drum-Kit.git"
+  },
+  "author": "psplawski.dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splawskip/JS-Drum-Kit/issues"
+  },
+  "homepage": "https://github.com/splawskip/JS-Drum-Kit#readme",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-recess-order": "^3.0.0"
+  }
+}
